@@ -391,7 +391,6 @@ h6 {
   position: relative;
   -webkit-animation: hiddentext 1s ease;
           animation: hiddentext 1s ease;
-  font-weight: 600;
   font-size: 28px;
   line-height: 135%;
 }
