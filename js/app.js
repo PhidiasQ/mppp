@@ -51,14 +51,7 @@
             }), delay);
         }
     };
-    function menuInit() {
-        if (document.querySelector(".icon-menu")) document.addEventListener("click", (function(e) {
-            if (bodyLockStatus && e.target.closest(".icon-menu")) {
-                bodyLockToggle();
-                document.documentElement.classList.toggle("menu-open");
-            }
-        }));
-    }
+  
     let addWindowScrollEvent = false;
     setTimeout((() => {
         if (addWindowScrollEvent) {
